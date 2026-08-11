@@ -1,0 +1,27 @@
+{
+  "name": "opencode-statusbar",
+  "version": "0.1.0",
+  "description": "OpenCode TUI status bar plugin - git branch, diff stats, and custom shell command status in the bottom prompt row.",
+  "type": "module",
+  "exports": {
+    "./tui": "./src/index.tsx"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "opencode": ">=1.18.0"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.18.0",
+    "@opentui/solid": "0.4.5",
+    "solid-js": "1.9.10"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "1.18.16",
+    "@opentui/solid": "0.4.5",
+    "@types/node": "^26.2.0",
+    "solid-js": "1.9.10"
+  },
+  "license": "MIT"
+}

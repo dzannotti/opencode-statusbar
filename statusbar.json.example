@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "type": "git-branch", "format": "🌿 {branch}" },
+    { "type": "git-diff", "format": "📝 +{added} ~{deleted}" },
+    { "type": "custom", "command": "basename \"$(pwd)\"", "format": "📁 {output}" }
+  ],
+  "refreshInterval": 500,
+  "periodicInterval": 3000
+}
